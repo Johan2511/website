@@ -31,6 +31,10 @@ body {
   margin-top: -7px;
 }
 
+.brand h2 {
+  font-size: 2.5em;
+}
+
 .brand span {
   color: aqua;
 }
@@ -43,6 +47,7 @@ body {
 
 .menu li {
   list-style: none;
+  font-size: 1.5em;
   
 }
 
@@ -87,6 +92,7 @@ h1 {
   text-align: justify;
   display: inline-block;
   padding-right: 10px;
+  font-size: 1.5em;
 }
 
 .download-cv {
@@ -149,6 +155,7 @@ h1 {
 
 .about p {
   margin-bottom: 1em;
+  font-size: 1.5em;
 }
 
 /* ---Section Portfolio--- */
@@ -158,7 +165,8 @@ h1 {
   background-color: #191c32;
 }
 
-.portfolio-heading {
+.portfolio-heading,
+.contact-headings {
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -237,6 +245,10 @@ h1 {
 }
 
 /* ---Section Contact--- */
+
+.contact-headings {
+  color: #191c32;
+}
 
 .contact-headings h2 {
   font-size: 3em;
